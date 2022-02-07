@@ -1,0 +1,243 @@
+body{
+    background: white;
+    padding: 0;
+    margin:0;
+    
+}
+header{    
+    background-image: url(https://img.freepik.com/foto-gratis/textura-marmol-blanco-panorama-diseno-decorativo-fondo-o-piso-baldosas_42682-513.jpg?size=626&ext=jpg);
+    background-position: center;
+    display: grid;
+    justify-content: center;
+    align-content: flex-end;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul{
+    list-style: none;
+    
+    
+}
+nav ul li{
+    display: inline-block;
+    
+}
+nav ul li a{ 
+    color: black;
+    font-weight: var(--fnt,var(--font_1));
+    text-decoration: none;
+    font-size: 15px;
+    padding: 15px;
+
+    
+}  
+
+nav ul li a:hover{
+    background:lightgrey;
+    overflow: hidden;
+    border-radius: 50px;
+}
+.contenedor{
+   
+    width: 100%;
+    
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat( 4, 265px) ;
+    grid-template-rows: 200px 200px 200px 200px;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+}
+.contenedor header{
+    grid-column: span 5;
+
+}
+.contenedor .logos{
+    display: flex;
+    justify-content: right;
+    
+}
+
+
+.contenedor .logos .fb{
+    height: 30px;
+    width: 30px;
+    
+}
+.contenedor .logos .ig{
+    height: 30px;
+    width: 30px;
+    
+    
+}
+.contenedor .logos .wp{
+    height: 30px;
+    width: 30px;
+    
+}
+div.tabla{
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    margin-top: 50px;
+}
+div .tabla table{
+    
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border: 10px double;
+    
+    
+}
+div .tabla table .superior{
+    background-color: lightgray;
+    text-align: center;
+}
+tr:nth-child(odd){
+    background-color: lightblue;
+
+
+}
+.contenedor footer{
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    margin-top: 700px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 400px;
+}
+footer .foot p{
+    margin-top: 35px;
+    
+}
+
+@media screen and (max-width:768px) {
+    body{
+    width: auto;
+    height: auto;
+    }
+    
+    
+    .contenedor nav ul li a{
+  
+    
+    font-size: 20px;
+    }   
+    div.tabla{
+    display: grid;
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 210px;
+    height: 500px;
+    width: 700px;
+    }
+    div .tabla table{
+    font-size: 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 5px double;
+    margin-top: 120px;
+    
+    }
+    .contenedor footer{
+    position: absolute;
+    margin-top: 1600px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: 91%;
+    height: 460px;
+    margin-left: 210px;
+    font-size: 20px;
+    }
+    footer .foot p{
+    margin-top: 35px;
+    
+}
+}
+@media screen and (max-width: 425px){
+
+    body{
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: auto;
+    }
+    header{  
+    
+    display: grid;
+    justify-content: left;
+    
+    }
+    .contenedor{
+    width: 0%;
+    display: grid;
+    grid-template-columns: repeat( 2, 200px) ;
+    grid-template-rows: repeat( 2, 200px);
+    align-items: flex-start;
+    
+    
+    }
+    .contenedor .logos{ 
+    position: absolute;
+    left: 290px;
+    padding-top: 20px;
+    }
+    nav{
+    
+    }
+    nav ul{
+    position: relative;
+    
+    }
+    nav ul li{
+    padding-top: 80px;
+    
+   
+    }
+    .contenedor nav ul li a{ 
+    font-size: 12px;
+    padding-left: 10px;
+
+    }  
+    div.tabla{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 0;
+    }
+    div .tabla table{
+    font-size: 12px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 5px double;
+    
+    
+    }
+    
+
+    .contenedor footer{
+    position: absolute;
+    font-size: 12px;
+    margin-top: 1200px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 370px;
+    }
+    footer .foot p{
+    margin-top: 30px;
+    
+}
+
+
+
+
+
+
+
+}
