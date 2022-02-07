@@ -13,6 +13,7 @@ header{
     align-content: flex-end;
     padding: 0;
     margin: 0;
+    width: 1350px;
 }
 
 nav ul{
@@ -61,7 +62,7 @@ nav ul li a:hover{
     justify-content: space-around;
     margin-bottom: 00px;
     text-align: center;
-
+    width: 1350px;
 }
 
 .contenedor .servicios{
@@ -76,13 +77,13 @@ nav ul li a:hover{
     width: 200px;
     position: absolute;
     margin-top: 21px;
+    
+   
 }
 .contenedor .servicios .imgs{
     margin-left: 200px;
-    margin-right: 50px;
-    
     background: linear-gradient(to bottom, rgb(153, 152, 152) ,rgb(90, 90, 90));
-    width: 1350px;
+    width: 1100px;
     height: 237px;
 }
 /*---Formulario---*/
@@ -228,6 +229,7 @@ nav ul li a:hover{
     position: relative;
     justify-content: left;
     box-sizing: border-box;
+    
 }
 .contenedor .fotitos .capa{
     position: absolute;
@@ -237,7 +239,7 @@ nav ul li a:hover{
 }
 
 .fotitos img{ 
-    width: 20%;
+    width: 25%;
     
     height: 190%;
     overflow: hidden;
@@ -246,17 +248,29 @@ nav ul li a:hover{
 }
 .fotitos .lifting{
     margin-top: 30px;
-    margin-left: 120px;
+    margin-left: 70px;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-name: un-efecto;
 }
 .fotitos .cejas{
     margin-top: 30px;
-    margin-left: 210px;
-
+    margin-left: 100px;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    
+    animation-name: un-efecto;
 }
 .fotitos .pestañas{
     margin-top: 30px;
-    margin-left: 230px;
-
+    margin-left: 120px;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    
+    animation-name: un-efecto;
 }
 .logos .fb{
     width: 50px;
@@ -269,6 +283,12 @@ nav ul li a:hover{
 .logos .wp{
     width: 40px;
     height: 40px;
+}
+
+@keyframes un-efecto{
+    0%{width: 150px;}
+    
+    
 }
 /*---Media Queries---*/
 @media screen and (max-width:768px) {
