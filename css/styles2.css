@@ -311,13 +311,7 @@ nav ul li a:hover{
     margin: 20px 20px 0px 0px;
     
     }
-   .contenedor .presentacion{
-    position: relative;
-    margin-top:200px;
-    font-size: 20px;
-    height: 1000px;
-    width: 95%;
-    }
+   
     
     .contenedor .servicios{
     margin-left: 10px;
@@ -456,9 +450,7 @@ nav ul li a:hover{
     left: 290px;
     padding-top: 20px;
     }
-    nav{
     
-    }
     nav ul{
     position: relative;
     
