@@ -235,7 +235,10 @@ nav ul li a:hover{
     position: absolute;
     text-align: left;
     width: 92%;
-    
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-name: un-efecto;
 }
 
 .fotitos img{ 
@@ -244,7 +247,10 @@ nav ul li a:hover{
     height: 190%;
     overflow: hidden;
     border-radius: 25px;
-    
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-name: un-efecto;
 }
 .fotitos .lifting{
     margin-top: 30px;
@@ -257,20 +263,12 @@ nav ul li a:hover{
 .fotitos .cejas{
     margin-top: 30px;
     margin-left: 100px;
-    animation-timing-function: ease-in;
-    animation-duration: 2s;
-    animation-delay: 0s;
-    
-    animation-name: un-efecto;
+   
 }
 .fotitos .pestañas{
     margin-top: 30px;
     margin-left: 120px;
-    animation-timing-function: ease-in;
-    animation-duration: 2s;
-    animation-delay: 0s;
     
-    animation-name: un-efecto;
 }
 .logos .fb{
     width: 50px;
@@ -285,11 +283,13 @@ nav ul li a:hover{
     height: 40px;
 }
 
+
 @keyframes un-efecto{
     0%{width: 150px;}
     
     
 }
+
 /*---Media Queries---*/
 @media screen and (max-width:768px) {
     body{
@@ -311,13 +311,7 @@ nav ul li a:hover{
     margin: 20px 20px 0px 0px;
     
     }
-   .contenedor .presentacion{
-    position: relative;
-    margin-top:200px;
-    font-size: 20px;
-    height: 1000px;
-    width: 95%;
-    }
+   
     
     .contenedor .servicios{
     margin-left: 10px;
@@ -456,9 +450,7 @@ nav ul li a:hover{
     left: 290px;
     padding-top: 20px;
     }
-    nav{
     
-    }
     nav ul{
     position: relative;
     
