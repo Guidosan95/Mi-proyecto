@@ -1,0 +1,22 @@
+header{    
+    background-image: url(https://img.freepik.com/foto-gratis/textura-marmol-blanco-panorama-diseno-decorativo-fondo-o-piso-baldosas_42682-513.jpg?size=626&ext=jpg);
+    background-position: center;
+    display: grid;
+    justify-content: center;
+    align-content: flex-end;
+    padding: 0;
+    margin: 0;
+    width: 1350px;
+    height: 150px;
+        & nav.navbar .menu_bar{
+            visibility: hidden;
+        }
+        nav ul li a:hover{
+        background:grey;
+        transition: 0.5s;
+        
+        border-radius: 10px;
+        overflow: hidden;
+        
+        }
+}  
