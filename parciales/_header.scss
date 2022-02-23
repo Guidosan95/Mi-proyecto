@@ -1,6 +1,6 @@
 
 header{    
-    background-image: url(https://img.freepik.com/foto-gratis/textura-marmol-blanco-panorama-diseno-decorativo-fondo-o-piso-baldosas_42682-513.jpg?size=626&ext=jpg);
+    background-image: url(https://img.freepik.com/foto-gratis/textura-marmol-blanco-panorama-diseno-decorativo-fondo-o-piso-baldosas_42682-513.jpg?size=626&ext=jpg) ;
     background-position: center;
     display: grid;
     justify-content: center;
@@ -16,11 +16,11 @@ header{
         justify-content:left; 
         padding-top:70px;
         padding-left: 35px;
-        
 
         a img.fb{
             height: 30px;
             width: 30px;
+
 
         }
         a img.ig{
@@ -28,6 +28,7 @@ header{
             width: 30px;
 
         }
+
         a img.wp{
             height: 30px;
             width: 30px;
@@ -38,10 +39,12 @@ header{
         position: relative;
 
     }
+
     nav.navbar .container ul.navbar-nav .row{
         padding-left: 20px;
 
     }
+
     nav.navbar .container-fluid a.navbar-brand{
         font-size: 16.4px;
         color: black;
@@ -50,6 +53,7 @@ header{
         color: black;
 
     }
+
 
 
     nav ul li a:hover{
