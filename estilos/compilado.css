@@ -8,12 +8,23 @@ header {
   margin: 0;
   width: 1350px;
   height: 150px; }
+  @media screen and (max-width: 768px) {
+    header {
+      width: 768px;
+      height: 260px; } }
+  @media (max-width: 425px) and (max-height: 538px) {
+    header {
+      width: 425px; } }
   header .logos .logs-v {
     display: flex;
     position: relative;
     justify-content: left;
     padding-top: 70px;
     padding-left: 35px; }
+    @media screen and (max-width: 768px) {
+      header .logos .logs-v {
+        padding-top: 100px;
+        padding-left: 600px; } }
     header .logos .logs-v a img.fb {
       height: 30px;
       width: 30px; }
@@ -37,6 +48,30 @@ header {
     transition: 0.5s;
     border-radius: 10px;
     overflow: hidden; }
+
+/*--Colores--*/
+.formulario .container .row, .Nombre input .container .row, .Apellido .container .row, .Consulta .container .row, .boton .container .row {
+  margin-top: 10%;
+  background-color: black;
+  color: white;
+  text-align: center; }
+
+/*--Estilos--*/
+.Nombre input, .Apellido input, .Consulta input {
+  border: 1px solid white;
+  opacity: 1.0;
+  width: 50%;
+  border-radius: 0.25rem;
+  background: black; }
+
+.Consulta input {
+  height: 100px; }
+
+.boton input {
+  background: black;
+  border: 1px solid white;
+  color: white;
+  border-radius: 0.25rem; }
 
 @media screen and (max-width: 768px) {
   header {
@@ -137,7 +172,7 @@ header {
     transition: 0.5s;
     border-radius: 0px;
     overflow: hidden; }
-  .container .row .Nombre {
+  .container .row .Nombre, .container .row .Apellido, .container .row .Consulta {
     width: 500px;
     padding-left: 100px;
     text-align: left; }

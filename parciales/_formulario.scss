@@ -1,0 +1,57 @@
+/*--Colores--*/
+$colors: 
+(
+'b': black,
+'w': white,
+
+);
+
+
+
+
+.formulario .container .row {
+    margin-top: 10%; 
+    background-color: map-get($map: $colors, $key: 'b' );
+    color: map-get($map: $colors, $key:'w' );
+    text-align: center;
+
+}
+
+
+/*--Estilos--*/
+
+.Nombre input{
+    @extend .formulario;
+    border: 1px solid map-get($map: $colors, $key:'w' ); 
+    opacity: 1.0;
+    width: 50%;
+    border-radius: 0.25rem;
+    background: map-get($map: $colors, $key: 'b' );
+    
+
+}
+
+.Apellido{
+    @extend .formulario;
+    @extend .Nombre;
+}
+
+.Consulta{
+    @extend .formulario;
+    @extend .Nombre;
+    input{
+        height: 100px;
+    }
+
+}
+
+.boton {
+    @extend .formulario;
+    input{
+        background: map-get($map: $colors, $key: 'b' ); 
+        border: 1px solid map-get($map: $colors, $key:'w' ); 
+        color: map-get($map: $colors, $key:'w' );
+        border-radius: 0.25rem;
+
+    }
+}
