@@ -106,36 +106,37 @@ header nav ul li a:hover{
         font-size: 15px;
     }
     
-     .escue .container-fluid :nth-child(2){
+    .escue .container-fluid :nth-child(2){
           height: 89.2% !important;
           padding-top: 90px !important;
-     }
-     .escue .container-fluid :nth-child(2) h1{
+    }
+    .escue .container-fluid :nth-child(2) h1{
           font-size: 25px;
           padding-top:10px;
 
-     }
-     .imag .container-fluid .row .im1{
+    }
+    
+    .imag .container-fluid .row .im1{
           width: 256px;
           height: 450px !important;
      
-     }
-     .imag .container-fluid .row .im2{
+    }
+    .imag .container-fluid .row .im2{
           width: 500px;
           padding-left: 230px !important;
           height: 450px !important;
-     }
-     .imag .container-fluid .row .im3{
+    }
+    .imag .container-fluid .row .im3{
           width: 755px;
           padding-left: 500px !important;
           height: 450px !important;
-     }
-     .tex .container-fluid .row h2{
+    }
+    .tex .container-fluid .row h2{
           font-size: 20px;
-     }
-     .tex .container-fluid .row p{
+    }
+    .tex .container-fluid .row p{
           font-size: 12px;
-     }
+    }
      
 
 
