@@ -82,7 +82,10 @@ header {
   header .logos {
     margin-right: 0px; }
   header .logos .logs-v {
+<<<<<<< HEAD
     padding-top: 0px;
+=======
+>>>>>>> 69877f52a5de9a7ae5471e3772716d8cce614e9f
     padding-left: 600px; }
   div.fotos .container {
     padding-left: 0px;
