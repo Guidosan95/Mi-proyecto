@@ -1,7 +1,7 @@
 @media screen and (max-width:768px){
     header{
-        width: 768px;
-        height: 260px;
+        width: auto;
+        height: auto;
     }
     header nav.navbar{
         width: 768px;
@@ -14,7 +14,7 @@
        
     }
     header .logos .logs-v{
-        padding-top: 100px ;
+        padding-top: 0px;
         padding-left: 600px ;
 
 
@@ -97,7 +97,8 @@
     
     header{
         
-        width: 425px;
+        width: auto;
+        height: auto;
 
     }
     header .logos{
@@ -196,20 +197,17 @@
     
     }
     .container .row .Nombre{
-        width: 500px ;
-        padding-left: 100px;
-        text-align: left;
+        width: 400px ;
+        
     }
     .container .row .Apellido{
-        width: 500px ;
-        padding-left: 100px;
-        text-align: left;
+        width: 400px ;
+        
 
     }
     .container .row .Consulta{
-        width: 500px ;
-        padding-left: 100px;
-        text-align: left;
+        width: 400px ;
+        
 
     }
     .container .row .boton{
