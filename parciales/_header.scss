@@ -7,14 +7,34 @@ header{
     align-content: flex-end;
     padding: 0;
     margin: 0;
-    width: 1350px;
-    height: 150px;
+    width: auto;
+    height: auto;
     @include tablet {
-        width: 768px;
-        height: 260px;
+        width: auto;
+        height: auto;
     }
     @include movil {
-        width: 425px;
+        width: auto;
+        height: auto;
+    }
+    .log .logi{
+        position: absolute;
+        margin-left: 500px;
+        width: 120px;
+        height: 120px;
+        @include tablet{
+            margin-left: 0px;
+            width: 80px;
+            height: 80px;
+
+        }
+        @include movil {
+            width: 55px;
+            height: 55px;
+            margin-left: 0px;
+
+        }
+
     }
     
 
