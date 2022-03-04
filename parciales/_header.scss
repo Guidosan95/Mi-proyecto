@@ -1,4 +1,5 @@
 @import "./responsive";
+@import "./variables";
 header{    
     background-image: url(https://img.freepik.com/foto-gratis/textura-marmol-blanco-panorama-diseno-decorativo-fondo-o-piso-baldosas_42682-513.jpg?size=626&ext=jpg);
     background-position: center;
@@ -13,6 +14,7 @@ header{
         width: auto;
         height: auto;
     }
+    
     @include movil {
         width: auto;
         height: auto;
