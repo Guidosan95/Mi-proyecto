@@ -189,26 +189,27 @@ header {
   .pasi .container-fluid .row p {
     font-size: 10px; }
   .imag .container-fluid .row .im1 {
-    width: 150px;
+    width: 140px;
     height: 350px !important; }
   .imag .container-fluid .row .im2 {
-    width: 300px;
-    padding-left: 137px !important;
+    width: 280px;
+    padding-left: 125px !important;
     height: 350px !important; }
   .imag .container-fluid .row .im3 {
-    width: 471px;
-    padding-left: 300px !important;
+    width: 472px;
+    padding-left: 280px !important;
     height: 350px !important; }
   .tex .container-fluid .row :nth-child(1) {
-    padding-left: 0px;
+    padding-left: 1% !important;
     height: 10%;
-    width: 35%; }
+    width: 33% !important; }
   .tex .container-fluid .row :nth-child(2) {
     padding-left: 0px;
-    width: 30%; }
+    width: 33% !important; }
   .tex .container-fluid .row :nth-child(3) {
     padding-left: 1%;
-    width: 35%; }
+    width: 33% !important;
+    height: 0%; }
   .tex .container-fluid .row h2 {
     font-size: 12px; }
   .tex .container-fluid .row p {
