@@ -1,0 +1,33 @@
+.tex{
+    padding-top: 150px;
+
+}
+.tex .container-fluid .row :nth-child(1){
+     
+    height: 50px;
+    padding-right:0%; 
+    text-align: left;
+    position: relative;  
+
+
+
+}
+.tex .container-fluid .row :nth-child(2){
+    
+    padding-left:0px; 
+    padding-right: 0px; 
+    height: 50px; 
+    text-align: left;
+    position: relative;  
+
+
+}
+.tex .container-fluid .row :nth-child(3){
+    
+    padding-right:0px; 
+    text-align: left;
+    height: 50px;
+    position: relative;  
+
+
+}
