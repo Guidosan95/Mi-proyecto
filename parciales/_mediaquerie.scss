@@ -256,7 +256,7 @@
     }
     .escue .container-fluid .row :nth-child(2){
         padding-top: 10px;
-        height: 50.6% ;
+        height: 40% ;
         
     }
     .escue .container-fluid .row :nth-child(2) h1{
@@ -275,9 +275,8 @@
         font-size:10px;
 
     }
-    .imag .container-fluid .row :nth-child(1){
-       
-
+    .imag .container-fluid .row{
+        padding-bottom: 0px;
     }
     .imag .container-fluid .row :nth-child(2){
          
@@ -294,12 +293,12 @@
      }
      .imag .container-fluid .row .im2{
           width: 310px;
-          padding-left: 140px ;
+          padding-left: 130px ;
           height: 350px ;
      }
      .imag .container-fluid .row .im3{
-          width: 433px;
-          padding-left: 255px ;
+          width: 420px;
+          padding-left: 210px ;
           height: 350px ;
      }
     .tex{
