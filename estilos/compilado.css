@@ -107,25 +107,48 @@ header {
   padding-top: 300px;
   position: absolute; }
 
-.imag .container-fluid .row :nth-child(1) {
-  height: 640px;
+.imag .container-fluid .row .col-4 {
+  width: 33.3%; }
+
+.imag .container-fluid .row img.im1 {
+  height: 610px;
+  width: 462px;
   position: absolute; }
 
-.imag .container-fluid .row :nth-child(2) {
-  height: 640px;
-  padding-left: 410px;
+.imag .container-fluid .row img.im2 {
+  height: 610px;
+  width: 500px;
   position: absolute; }
 
-.imag .container-fluid .row :nth-child(3) {
-  padding-left: 907px;
-  height: 640px;
+.imag .container-fluid .row img.im3 {
+  height: 610px;
+  padding-left: 32px;
   position: absolute; }
 
 .tex {
   padding-top: 150px; }
 
+.tex .container-fluid .row .col-4 {
+  width: 33.3%; }
+
+.tex .container-fluid .row :nth-child(1) .carr2 {
+  padding-top: 80px; }
+
+.tex .container-fluid .row :nth-child(2) .perf {
+  padding-left: 30px; }
+
+.tex .container-fluid .row :nth-child(2) .perf2 {
+  padding-top: 30px;
+  padding-left: 30px; }
+
+.tex .container-fluid .row :nth-child(3) .curs {
+  padding-left: 50px; }
+
+.tex .container-fluid .row :nth-child(3) .curs2 {
+  padding-top: 30px;
+  padding-left: 50px; }
+
 .tex .container-fluid .row :nth-child(1) {
-  height: 50px;
   padding-right: 0%;
   text-align: left;
   position: relative; }
@@ -133,14 +156,12 @@ header {
 .tex .container-fluid .row :nth-child(2) {
   padding-left: 0px;
   padding-right: 0px;
-  height: 50px;
   text-align: left;
   position: relative; }
 
 .tex .container-fluid .row :nth-child(3) {
   padding-right: 0px;
   text-align: left;
-  height: 50px;
   position: relative; }
 
 @media (max-width: 992px) {
@@ -163,7 +184,7 @@ header {
     height: 500px; }
   .escue .container-fluid .row :nth-child(2) {
     padding-top: 150px;
-    height: 47%; }
+    height: 47.3%; }
   .escue .container-fluid .row :nth-child(2) h1 {
     font-size: 20px;
     height: 50px; }
@@ -174,36 +195,47 @@ header {
     font-size: 20px; }
   .pasi .container-fluid .row p {
     font-size: 15px; }
-  .imag .container-fluid .row {
-    padding-bottom: 30px; }
-  .imag .container-fluid .row :nth-child(2) {
-    padding-left: 0px; }
-  .imag .container-fluid .row :nth-child(3) {
-    padding-left: 00px; }
-  .imag .container-fluid .row .im1 {
-    width: 260px;
-    height: 450px; }
-  .imag .container-fluid .row .im2 {
-    width: 540px;
-    padding-left: 260px;
-    height: 450px; }
-  .imag .container-fluid .row .im3 {
-    width: 810px;
-    padding-left: 540px;
-    height: 450px; }
+  .imag .container-fluid .row img.im1 {
+    height: 500px;
+    width: 271px;
+    position: absolute; }
+  .imag .container-fluid .row img.im2 {
+    height: 500px;
+    width: 500px;
+    position: absolute; }
+  .imag .container-fluid .row img.im3 {
+    height: 500px;
+    padding-left: 32px;
+    position: absolute; }
   .tex {
-    padding-top: 75px; }
+    padding-top: 150px; }
+  .tex .container-fluid .row .col-4 {
+    width: 33.3%; }
+  .tex .container-fluid .row :nth-child(1) .carr2 {
+    padding-top: 58x; }
+  .tex .container-fluid .row :nth-child(2) .perf {
+    padding-left: 30px; }
+  .tex .container-fluid .row :nth-child(2) .perf2 {
+    padding-top: 30px;
+    padding-left: 30px; }
+  .tex .container-fluid .row :nth-child(3) .curs {
+    padding-left: 50px; }
+  .tex .container-fluid .row :nth-child(3) .curs2 {
+    padding-top: 30px;
+    padding-left: 50px; }
   .tex .container-fluid .row :nth-child(1) {
-    padding-left: 1%;
-    height: 10%;
-    width: 33%; }
+    padding-right: 0%;
+    text-align: left;
+    position: relative; }
   .tex .container-fluid .row :nth-child(2) {
     padding-left: 0px;
-    width: 33%; }
+    padding-right: 0px;
+    text-align: left;
+    position: relative; }
   .tex .container-fluid .row :nth-child(3) {
-    padding-left: 1%;
-    width: 33%;
-    height: 0%; }
+    padding-right: 0px;
+    text-align: left;
+    position: relative; }
   .tex .container-fluid .row h2 {
     font-size: 15px; }
   .tex .container-fluid .row p {

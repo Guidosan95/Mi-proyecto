@@ -1,15 +1,21 @@
-.imag .container-fluid .row :nth-child(1){
-    height: 640px;
+.imag .container-fluid .row .col-4{
+    width: 33.3%;
+}
+.imag .container-fluid .row img.im1{
+    height: 610px;
+    width: 462px;
     position: absolute;
 
 }
-.imag .container-fluid .row :nth-child(2){
-    height: 640px; 
-    padding-left: 410px;
+.imag .container-fluid .row img.im2{
+    height: 610px; 
+    
+    width: 500px;
     position: absolute;
 }
-.imag .container-fluid .row :nth-child(3){
-    padding-left: 907px; 
-    height: 640px;
+.imag .container-fluid .row img.im3{
+     
+    height: 610px;
+    padding-left: 32px;
     position: absolute;
 }

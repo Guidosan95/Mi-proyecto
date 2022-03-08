@@ -2,9 +2,31 @@
     padding-top: 150px;
 
 }
+.tex .container-fluid .row .col-4{
+    width: 33.3%;
+
+}
+.tex .container-fluid .row :nth-child(1) .carr2{
+    padding-top: 80px;
+
+}
+.tex .container-fluid .row :nth-child(2) .perf{
+    padding-left: 30px;
+}
+.tex .container-fluid .row :nth-child(2) .perf2{
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.tex .container-fluid .row :nth-child(3) .curs{
+    padding-left: 50px;
+}
+.tex .container-fluid .row :nth-child(3) .curs2{
+    padding-top: 30px;
+    padding-left: 50px;
+}
 .tex .container-fluid .row :nth-child(1){
      
-    height: 50px;
+    
     padding-right:0%; 
     text-align: left;
     position: relative;  
@@ -16,7 +38,7 @@
     
     padding-left:0px; 
     padding-right: 0px; 
-    height: 50px; 
+    
     text-align: left;
     position: relative;  
 
@@ -26,7 +48,7 @@
     
     padding-right:0px; 
     text-align: left;
-    height: 50px;
+    
     position: relative;  
 
 
