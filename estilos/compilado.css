@@ -197,15 +197,16 @@ header {
     font-size: 15px; }
   .imag .container-fluid .row img.im1 {
     height: 500px;
-    width: 285px;
+    width: 282px;
     position: absolute; }
   .imag .container-fluid .row img.im2 {
     height: 500px;
-    width: 430px;
+    width: 350px;
     position: absolute; }
   .imag .container-fluid .row img.im3 {
+    width: 240px;
     height: 500px;
-    padding-left: 32px;
+    padding-left: 30px;
     position: absolute; }
   .tex {
     padding-top: 150px; }
