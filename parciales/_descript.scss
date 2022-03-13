@@ -1,0 +1,55 @@
+
+.descrip .container-fluid .row .col-4 .li{
+    position: absolute ;
+    text-align: center;
+    padding-top: 70px;
+    color: black;
+    opacity: 0;
+    
+}
+
+.descrip .container-fluid .row .col-4 .ce{
+    position: absolute ;
+    text-align: center;
+    padding-top: 70px;
+    color: black;
+    opacity: 0;
+}
+.descrip .container-fluid .row .col-4 .pe{
+    position: absolute ;
+    text-align: center;
+    padding-top: 70px;
+    color: black;
+    opacity: 0;
+}
+
+.descrip .container-fluid .row .col-4 .li:hover{
+    background:#DFAF66;
+    transition: 0.5s;
+    border-radius: 551px;
+    overflow: hidden;
+    opacity: 0.8;
+    width: 30.84%; 
+    height: 65%;
+    padding-left: 0px;
+}
+.descrip .container-fluid .row .col-4 .ce:hover{
+    background:#DFAF66;
+    transition: 0.5s;
+    border-radius: 551px;
+    overflow: hidden;
+    opacity: 0.8;
+    width: 30.84%; 
+    height: 65%;
+    padding-left: 0px;
+}
+.descrip .container-fluid .row .col-4 .pe:hover{
+    background:#DFAF66;
+    transition: 0.5s;
+    border-radius: 551px;
+    overflow: hidden;
+    opacity: 0.8;
+    width: 30.84%; 
+    height: 65%;
+    padding-left: 0px;
+}

@@ -1,13 +1,21 @@
-.mlbeau .container .row :nth-child(1){
+.mlbeau .container-fluid{
+    margin-top: 500px;
+    position: relative;
+}
+.mlbeau .container-fluid .row{
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.mlbeau .container-fluid .row :nth-child(1){
     padding-left: 0px;
     padding-right: 0px;
 
 }
-.mlbeau .container .row :nth-child(1) img.imagin{
+.mlbeau .container-fluid .row :nth-child(1) img.imagin{
     width: 175px;
     height:200px;
 
 }
-.mlbeau .container .row :nth-child(2){
+.mlbeau .container-fluid .row :nth-child(2){
     padding-left: 0px;
 }

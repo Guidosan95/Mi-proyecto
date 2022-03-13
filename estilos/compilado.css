@@ -65,15 +65,90 @@ header {
     border-radius: 10px;
     overflow: hidden; }
 
-.mlbeau .container .row :nth-child(1) {
+.fotos .container-fluid .row .col-4 {
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 10px; }
+
+.fotos .container-fluid .row .col-4 img {
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 55px;
+  width: 31.89%;
+  height: 65%;
+  margin: 0;
+  padding-left: 12px;
+  padding-right: 2.7px;
+  position: absolute; }
+
+.descrip .container-fluid .row .col-4 .li {
+  position: absolute;
+  text-align: center;
+  padding-top: 70px;
+  color: black;
+  opacity: 0; }
+
+.descrip .container-fluid .row .col-4 .ce {
+  position: absolute;
+  text-align: center;
+  padding-top: 70px;
+  color: black;
+  opacity: 0; }
+
+.descrip .container-fluid .row .col-4 .pe {
+  position: absolute;
+  text-align: center;
+  padding-top: 70px;
+  color: black;
+  opacity: 0; }
+
+.descrip .container-fluid .row .col-4 .li:hover {
+  background: #DFAF66;
+  transition: 0.5s;
+  border-radius: 551px;
+  overflow: hidden;
+  opacity: 0.8;
+  width: 30.84%;
+  height: 65%;
+  padding-left: 0px; }
+
+.descrip .container-fluid .row .col-4 .ce:hover {
+  background: #DFAF66;
+  transition: 0.5s;
+  border-radius: 551px;
+  overflow: hidden;
+  opacity: 0.8;
+  width: 30.84%;
+  height: 65%;
+  padding-left: 0px; }
+
+.descrip .container-fluid .row .col-4 .pe:hover {
+  background: #DFAF66;
+  transition: 0.5s;
+  border-radius: 551px;
+  overflow: hidden;
+  opacity: 0.8;
+  width: 30.84%;
+  height: 65%;
+  padding-left: 0px; }
+
+.mlbeau .container-fluid {
+  margin-top: 500px;
+  position: relative; }
+
+.mlbeau .container-fluid .row {
+  margin-left: 10px;
+  margin-right: 20px; }
+
+.mlbeau .container-fluid .row :nth-child(1) {
   padding-left: 0px;
   padding-right: 0px; }
 
-.mlbeau .container .row :nth-child(1) img.imagin {
+.mlbeau .container-fluid .row :nth-child(1) img.imagin {
   width: 175px;
   height: 200px; }
 
-.mlbeau .container .row :nth-child(2) {
+.mlbeau .container-fluid .row :nth-child(2) {
   padding-left: 0px; }
 
 /*--Colores--*/
@@ -259,61 +334,173 @@ header {
     margin-right: 0px;
     margin-left: 0px; } }
 
-@media (max-width: 768px) {
+@media (max-width: 425px) {
   header {
-    max-width: 767px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    width: 100%;
     height: auto;
     position: relative; }
   header .log .logi {
-    margin-left: 0px;
-    position: absolute; }
+    width: 25%;
+    height: auto;
+    position: absolute;
+    left: 0;
+    top: 0; }
   header .logos {
-    max-width: 767px;
-    position: relative; }
+    width: 25%;
+    position: absolute;
+    right: 0; }
   header .logos .logs-v {
     padding-top: 0px;
-    padding-left: 320px;
-    position: relative; }
+    width: 100%;
+    padding-left: 0px;
+    right: 0;
+    position: absolute; }
   header nav.navbar {
-    max-width: 767px;
-    position: relative; }
-  div.fotos .container {
-    max-width: 767px;
-    margin-left: 0px;
-    padding-left: 0px; }
-  .fotos .container .row {
-    padding-left: 10px;
-    margin-right: 0PX; }
-  .fotos .container .row :nth-child(1) {
-    padding-left: 15px !important;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    margin-right: 280px;
+    margin-top: 20px; }
+  .fotos .container-fluid .row {
+    display: grid; }
+  .fotos .container-fluid .row .col-4 {
+    padding-left: 0px;
     padding-right: 0px;
-    width: 33%; }
-  .fotos .container .row :nth-child(1) img.rounded {
-    padding-left: 0px; }
-  .fotos .container .row :nth-child(2) {
-    padding-left: 15px !important;
+    padding-top: 10px; }
+  .fotos .container-fluid .row .col-4 img.lif {
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 55px;
+    width: 150%;
+    height: auto;
+    margin: 0;
+    padding-left: 0px;
     padding-right: 0px;
-    width: 33%; }
-  .fotos .container .row :nth-child(3) {
-    padding-left: 15px !important;
+    position: relative;
+    left: 94px; }
+  .fotos .container-fluid .row .col-4 img.cej {
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 55px;
+    width: 150%;
+    height: auto;
+    margin: 0;
+    padding-left: 0px;
     padding-right: 0px;
-    width: 33%; }
-  .descrip .container {
-    max-width: 767px; }
+    position: relative;
+    left: 94px;
+    top: 160px; }
+  .fotos .container-fluid .row .col-4 img.pes {
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 55px;
+    width: 150%;
+    height: auto;
+    margin: 0;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+    left: 94px;
+    top: 300px; }
+  .descrip {
+    width: 100%;
+    height: auto;
+    top: 278px;
+    position: absolute; }
+  .descrip .container-fluid .row {
+    display: grid; }
+  .descrip .container-fluid .row .col-4 :nth-child(1) h3 {
+    font-size: 15px;
+    margin-bottom: auto; }
+  .descrip .container-fluid .row .col-4 :nth-child(1) p {
+    font-size: 12px;
+    margin-bottom: auto; }
+  .descrip .container-fluid .row .col-4 .li {
+    position: relative;
+    text-align: center;
+    padding-top: 0px;
+    color: black;
+    opacity: 1;
+    width: 21.875rem;
+    height: auto;
+    top: 13.313rem; }
+  .descrip .container-fluid .row .col-4 .ce {
+    position: relative;
+    text-align: center;
+    padding-top: 0px;
+    color: black;
+    opacity: 1;
+    width: 21.875rem;
+    height: auto;
+    top: 32.188rem; }
+  .descrip .container-fluid .row .col-4 .pe {
+    position: relative;
+    text-align: center;
+    padding-top: 0px;
+    color: black;
+    opacity: 1;
+    width: 20.875rem;
+    height: auto;
+    top: 47.938rem; }
+  .descrip .container-fluid .row .col-4 .li:hover {
+    background: none;
+    transition: none;
+    border-radius: 551px;
+    overflow: hidden;
+    opacity: 1;
+    width: 21.875rem;
+    height: auto;
+    top: 13.313rem; }
+  .descrip .container-fluid .row .col-4 .ce:hover {
+    background: none;
+    transition: none;
+    border-radius: 551px;
+    overflow: hidden;
+    opacity: 1;
+    width: 21.875rem;
+    height: auto;
+    top: 32.188rem; }
+  .descrip .container-fluid .row .col-4 .pe:hover {
+    background: none;
+    transition: none;
+    border-radius: 551px;
+    overflow: hidden;
+    opacity: 1;
+    width: 21.875rem;
+    height: auto;
+    top: 47.938rem; }
   .mlbeau {
-    height: 200px; }
-  .mlbeau .container .row :nth-child(1) img.imagin {
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: auto; }
+  .mlbeau .container-fluid {
+    padding-left: 0px;
+    padding-right: 0px; }
+  .mlbeau .container-fluid .row {
+    margin-left: 0px;
+    margin-right: 0px; }
+  .mlbeau .container-fluid .row :nth-child(1) img.imagin {
     width: 130px;
-    height: 150px; }
-  .mlbeau .container .row :nth-child(2) {
-    padding-left: 135px;
+    height: auto;
+    left: 130px;
+    max-height: 200px;
+    position: relative; }
+  .mlbeau .container-fluid .row :nth-child(2) {
+    padding-left: 0px;
     padding-right: 0px;
-    position: absolute;
-    width: 83%; }
-  .mlbeau .container .row :nth-child(2) h1 {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-top: 0px;
+    overflow: auto; }
+  .mlbeau .container-fluid .row :nth-child(2) h1 {
     font-size: 15px; }
-  .mlbeau .container .row :nth-child(2) p {
+  .mlbeau .container-fluid .row :nth-child(2) p {
     font-size: 11px;
+    margin-top: 0px;
     padding-left: 0px; }
   .Pregunt .container .row {
     margin-top: 0px !important;
@@ -398,134 +585,5 @@ header {
     font-size: 12px; }
   footer {
     width: 100%; }
-  footer p {
-    font-size: 10px; } }
-
-@media (max-width: 425px) and (max-height: 538px) {
-  header {
-    width: auto;
-    height: auto; }
-  header .log .logi {
-    width: 55px;
-    height: 55px;
-    margin-left: 0px; }
-  header .logos {
-    height: 1px; }
-  header .logos .logs-v {
-    display: none !important; }
-  header nav.navbar {
-    width: 425px; }
-  .fotos .container .row {
-    width: 427px;
-    padding-left: 7px;
-    margin-right: 0PX; }
-  .fotos .container .row :nth-child(1) {
-    padding-left: 0px !important;
-    padding-right: 0px;
-    width: 140px; }
-  .fotos .container .row :nth-child(2) {
-    padding-left: 0px !important;
-    padding-right: 0px;
-    width: 140px; }
-  .fotos .container .row :nth-child(3) {
-    padding-left: 0px !important;
-    padding-right: 0px;
-    width: 140px; }
-  .mlbeau .container .row :nth-child(2) {
-    padding-left: 180px !important;
-    width: 500px;
-    position: absolute; }
-  .mlbeau .container .row :nth-child(2) h1 {
-    font-size: 15px; }
-  .mlbeau .container .row :nth-child(2) p {
-    font-size: 12px; }
-  header nav.navbar {
-    margin-left: 0px;
-    padding-left: 0px;
-    float: left; }
-  header nav.navbar .container {
-    margin-left: 0px;
-    padding-left: 0px;
-    width: 500px;
-    height: 50px; }
-  header nav.navbar .container .row {
-    margin-left: 0px;
-    padding-left: 0px; }
-  header nav.navbar ul .row {
-    padding-left: 30px !important; }
-  header nav.navbar ul .row .col {
-    padding-left: 25px;
-    padding-top: 4px;
-    padding-right: 0px; }
-  nav ul li a:hover {
-    background: grey;
-    transition: 0.5s;
-    border-radius: 0px;
-    overflow: hidden; }
-  .container .row .Nombre, .container .row .Apellido, .container .row .Consulta {
-    width: 400px; }
-  .container .row .Apellido {
-    width: 400px; }
-  .container .row .Consulta {
-    width: 400px; }
-  .container .row .boton {
-    margin-top: 20px !important;
-    padding-left: 4px; }
-  .container .row .boton :nth-child(1) {
-    width: 100px;
-    text-align: left; }
-  .container .row .boton :nth-child(2) {
-    width: 100px;
-    margin-top: 10px;
-    text-align: left; }
-  .Pregunt .container .row {
-    margin-top: 0px !important;
-    display: flex;
-    flex-direction: column; }
-  .col-6 {
-    width: 100%;
-    padding-top: 50px; }
-  .Pregunt h1 {
-    font-size: 18px; }
-  .Pregunt h5 {
-    font-size: 15px; }
-  .Pregunt p {
-    font-size: 12px; }
-  summary {
-    font-size: 20px !important; }
-  .escue .container-fluid .row .col-6 img {
-    width: 100%; }
-  .escue .container-fluid .row :nth-child(1) {
-    height: 300px; }
-  .escue .container-fluid .row :nth-child(2) {
-    padding-top: 20px !important;
-    height: 55.7% !important;
-    width: 100%; }
-  .escue .container-fluid .row :nth-child(2) h1 {
-    font-size: 15px; }
-  .escue .container-fluid .row :nth-child(2) p {
-    font-size: 10px;
-    padding-top: 0px; }
-  .pasi .container-fluid .row h1 {
-    font-size: 15px; }
-  .pasi .container-fluid .row p {
-    font-size: 10px; }
-  .imag .container-fluid .row :nth-child(1) {
-    width: 150px;
-    height: 350px; }
-  .imag .container-fluid .row :nth-child(2) {
-    padding-left: 0px;
-    width: 280px;
-    height: 350px; }
-  .imag .container-fluid .row :nth-child(3) {
-    width: 413px;
-    padding-left: 270px;
-    height: 350px; }
-  .tex .container-fluid .row h2 {
-    font-size: 12px; }
-  .tex .container-fluid .row p {
-    font-size: 10px; }
-  .tabl .container table.table tr > td {
-    font-size: 12px; }
   footer p {
     font-size: 10px; } }
