@@ -239,11 +239,78 @@ header {
   text-align: left;
   position: relative; }
 
-@media (max-width: 992px) {
+@media (min-width: 767px) and (max-width: 992px) {
   header .log .logi {
     margin-left: 0px; }
   header .logos .logs-v {
     padding-left: 500px; }
+  .all {
+    position: absolute; }
+  .fotos .container-fluid .row .col-4 img {
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 55px;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative; }
+  .descrip {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    bottom: 342.88px;
+    padding-top: 6px; }
+  .descrip .container-fluid .row .col-4 h3 {
+    font-size: 20px; }
+  .descrip .container-fluid .row .col-4 p {
+    font-size: 13px; }
+  .descrip .container-fluid .row .col-4 .li {
+    position: relative;
+    text-align: center;
+    padding-top: 10px;
+    color: black;
+    opacity: 0; }
+  .descrip .container-fluid .row .col-4 .ce {
+    position: relative;
+    text-align: center;
+    padding-top: 10px;
+    color: black;
+    opacity: 0; }
+  .descrip .container-fluid .row .col-4 .pe {
+    position: relative;
+    text-align: center;
+    padding-top: 10px;
+    color: black;
+    opacity: 0; }
+  .descrip .container-fluid .row .col-4 .li:hover {
+    background: #DFAF66;
+    transition: 0.5s;
+    border-radius: 15%;
+    overflow: hidden;
+    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+    padding-left: 0px; }
+  .descrip .container-fluid .row .col-4 .ce:hover {
+    background: #DFAF66;
+    transition: 0.5s;
+    border-radius: 15%;
+    overflow: hidden;
+    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+    padding-left: 0px; }
+  .descrip .container-fluid .row .col-4 .pe:hover {
+    background: #DFAF66;
+    transition: 0.5s;
+    border-radius: 15%;
+    overflow: hidden;
+    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+    padding-left: 0px; }
   .mlbeau .container .row :nth-child(2) {
     padding-left: 180px;
     position: absolute;
@@ -393,7 +460,8 @@ header {
     padding-right: 0px;
     position: relative;
     left: 94px;
-    top: 160px; }
+    top: 160px;
+    background-color: red; }
   .fotos .container-fluid .row .col-4 img.pes {
     box-sizing: border-box;
     overflow: hidden;
